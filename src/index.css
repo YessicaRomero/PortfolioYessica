@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .bg-custom-gradient {
+      background-image: linear-gradient(to top, #252525 96%, #3d3d3d 100%);
+    }
+  }
+  @layer utilities {
+    .shadow-neon-pink {
+      box-shadow: 0 0 5px #ff1493, 
+                  0 0 25px #ff1493, 
+                  0 0 50px #ff1493, 
+                  0 0 200px #ff1493;
+    }
+  }
+  
+  @layer components {
+    .animate-line1 {
+      animation: animate1 1s linear infinite;
+    }
+  
+    .animate-line2 {
+      animation: animate2 1s linear infinite 0.25s;
+    }
+  
+    .animate-line3 {
+      animation: animate3 1s linear infinite 0.50s;
+    }
+  
+    .animate-line4 {
+      animation: animate4 1s linear infinite 0.75s;
+    }
+  
+    @keyframes animate1 {
+      0% { left: -100%; }
+      50%, 100% { left: 100%; }
+    }
+  
+    @keyframes animate2 {
+      0% { top: -100%; }
+      50%, 100% { top: 100%; }
+    }
+  
+    @keyframes animate3 {
+      0% { right: -100%; }
+      50%, 100% { right: 100%; }
+    }
+  
+    @keyframes animate4 {
+      0% { bottom: -100%; }
+      50%, 100% { bottom: 100%; }
+    }
+  }
