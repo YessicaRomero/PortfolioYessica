@@ -24,17 +24,19 @@ function Home() {
       }
     return(
         <motion.div
-        className="bg-custom-gradient   transition duration-500 ease-in-out transform hover:scale-105 overflow-hidden  "
+        className="bg-custom-gradient   transition duration-500 ease-in-out transform hover:scale-105 w-full min-h-screen  "
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
         variants={fadeIn}
       >
             <NavBar />
-            <div className="bg-[url(/fondoHome.png)] bg-center bg-no-repeat bg-cover ">
+            <div className="bg-[url(/fondoHome.png)] bg-center bg-no-repeat bg-cover  min-h-screen w-full hover:bg-opacity-90">
+            <div className="bg-black bg-opacity-50 min-h-screen w-full flex flex-col justify-center items-center">
             <Iconos />
             <Welcome />
             <Skills />
+            </div>
             </div>
             <motion.div className="flex flex-col md:flex-col xl:flex-col justify-center items-center gap-2 p-4 m-4">
           
@@ -51,7 +53,7 @@ function Home() {
             <motion.button
   type="button"
   onClick={HandleClick}
-  className="relative gap-4 justify-center  overflow-hidden text-pink-500 font-bold py-3 px-6 border-2 border-pink-500 rounded-lg transition duration-500 ease-in-out hover:bg-pink-500 hover:text-black shadow-neon-pink hover:shadow-neon-pink md:w-[250px] lg:w-[300px]"
+  className="relative gap-4 justify-center  overflow-hidden text-pink-500 font-bold py-3 px-6 border-2 border-pink-500 rounded-lg transition duration-500 ease-in-out hover:bg-pink-500 hover:text-black shadow-neon-pink hover:shadow-neon-pink md:w-[250px] lg:w-[400px]"
 >
   <span className="absolute top-0 left-0 w-full h-[2px] bg-gradient-to-r from-transparent to-pink-500 animate-line1"></span>
   <span className="absolute top-0 right-0 w-[2px] h-full bg-gradient-to-b from-transparent to-pink-500 animate-line2"></span>

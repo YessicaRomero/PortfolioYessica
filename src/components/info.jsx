@@ -12,12 +12,12 @@ export default function Info() {
                 <div className='flex flex-col   p-2 m-2'>
                     <p className='text-green-200 text-center'><PhoneIcon /></p>
                     <h2 className='text-green-200 text-center'>Cel </h2>
-                    <h3 className='text-slate-50 text-center'>2983-570884</h3>
+                    <h3 className='text-slate-50 text-center xl:text-xl'>2983-570884</h3>
                 </div>
                 <div className='flex flex-col    p-2 m-2 '>
                     <p className='text-green-200 text-center'><ContactMailIcon /></p>
                     <h2 className='text-green-200 text-center'>Contact</h2>
-                    <h3 className='text-slate-50 text-xs  sm:text-sm md:text-base lg:text-lg text-center'>yessicaromero@outlook.com.ar</h3>
+                    <h3 className='text-slate-50 text-xs  sm:text-sm md:text-base lg:text-lg  text-center'>yessicaromero@outlook.com.ar</h3>
 
                 </div>
             </div>

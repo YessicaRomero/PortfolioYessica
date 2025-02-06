@@ -12,7 +12,7 @@ function App() {
 
   return (
 
-    <div className="bg-custom-gradient">
+    <div className="bg-custom-gradient ">
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
