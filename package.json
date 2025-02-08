@@ -1,16 +1,14 @@
 {
-  "name": "miportfolio",
-  "private": true,
+  "name":"portfolio-yessica",
   "version": "0.0.0",
-  "homepage": "https://yessicaromero.github.io/PortfolioYessica/",
-
- "scripts": {
- 
-  "dev": "vite",
-  "build": "vite build",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
-},
+  "private": true,
+  "homepage": "https://YessicaRomero.github.io/PortfolioYessica/",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
 
   
   "dependencies": {
