@@ -7,8 +7,10 @@ import movies from '../assets/movie.mp4';
 import back from '../assets/back.mp4';
 import { useNavigate } from "react-router-dom";
 
-
 function Project() {
+  
+  
+
   const navigate = useNavigate();
 
   const HandleClick = () => {
@@ -18,6 +20,7 @@ function Project() {
   return (
     <div className=" px-4 mb-4" >
       <div className='flex justify-center items-center '>
+        
         <button onClick={HandleClick} className="bg-pink-500 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l">
           Prev
         </button>
@@ -26,60 +29,60 @@ function Project() {
 
       </div>
 
+      
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 m-4 p-4 border-4 border-double bg-gray-900 " >
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 m-4 p-4 border-4 border-double bg-gray-900" >
 
-
-        <div className="bg-gray-200 p-2 rounded-lg shadow-md relative overflow-hidden w-full max-w-sm mx-auto" >
+        <div className="bg-gray-400 p-2 rounded-lg shadow-md relative h-auto w-full max-w-sm mx-auto" >
           <ReactPlayer loading="lazy" url={video} controls loop width={"100%"} className="w-full" />
           <div className="p-4">
-            <h5 className="text-green-200 text-lg font-semibold">Biblioteca Musical || FullStack</h5>
-            <p className="text-slate-500 text-sm mt-2 max-w-sm">Implementé un CRUD utilizando React y NestJS. Los datos son consumidos desde un archivo JSON en el frontend, mientras que en el backend utilicé NestJS para manejar rutas, validaciones y lógica de negocio. Este proyecto me permitió profundizar en la interacción entre frontend y backend.</p>
-            <a href="https://github.com/YessicaRomero/Api-con-Nestjs-React.git" className="absolute bottom-4 left-4 right-4 text-center text-slate-50 bg-indigo-500 font-semibold  no-underline ">Ir a codigo <GitHub /> </a>
+            <h5 className="text-green-900 text-lg font-semibold">Music Library || FullStack</h5>
+            <p className="text-slate-800 text-sm mt-2 max-w-sm m-2">I implemented a CRUD using React and NestJS. The data is consumed from a JSON file on the frontend, while on the backend I used NestJS to handle paths, validations, and business logic. This project allowed me to delve deeper into the interaction between frontend and backend.</p>
+            <a href="https://github.com/YessicaRomero/Api-con-Nestjs-React.git" className="bottom-4 left-4 right-4 text-center text-black-50 hover:bg-pink-500 font-semibold p-2 no-underline ">Go to code<GitHub /> </a>
           </div>
         </div>
 
 
 
-        <div className="bg-gray-200 p-2 rounded-lg shadow-md relative overflow-hidden w-full max-w-sm mx-auto" >
+        <div className="bg-gray-400 p-2 rounded-lg shadow-md relative overflow-hidden w-full max-w-sm mx-auto" >
           <ReactPlayer url={video2} controls loop width={"100%"} className="w-full" />
           <div className="p-4">
-            <h5 className="text-green-200 text-lg font-semibold">Trivia || FullStack</h5>
-            <p className="text-slate-500 text-sm mt-2 max-w-sm">Desarrollé en equipo un juego de trivia interactivo. Participé en el frontend, utilizando React, Bootstrap y FontAwesome. Además, implementamos autenticación segura con JSON Web Tokens y utilizamos Figma para el diseño colaborativo. Este proyecto fue una gran oportunidad para trabajar en equipo y aplicar diversas tecnologías full stack.</p>
-            <a href="https://github.com/YessicaRomero/triviaFullSatck.git" className="absolute bottom-4 left-4 right-4 text-center text-slate-50   bg-indigo-500 font-semibold text-center no-underline">Ir a codigo<GitHub /> </a>
+            <h5 className="text-green-900 text-lg font-semibold">Trivia || FullStack</h5>
+            <p className="text-slate-800 text-sm mt-2 max-w-sm m-2">I developed an interactive trivia game as a team. I participated on the frontend, using React, Bootstrap and FontAwesome. In addition, we implemented secure authentication with JSON Web Tokens and used Figma for collaborative design.</p>
+            <a href="https://github.com/YessicaRomero/triviaFullSatck.git" className="bottom-4 left-4 right-4 text-center text-black-50 hover:bg-pink-500 font-semibold p-2 no-underline ">Go to code<GitHub /> </a>
           </div>
         </div>
 
 
 
-        <div className="bg-gray-200 p-2 rounded-lg shadow-md relative overflow-hidden w-full max-w-sm mx-auto" >
+        <div className="bg-gray-400 p-2 rounded-lg shadow-md relative overflow-hidden w-full max-w-sm mx-auto" >
           <ReactPlayer url={Peluqueria} controls loop width={"100%"} className="w-full" />
           <div className="p-4">
-            <h5 className="text-green-200 text-lg font-semibold">LandingPage Peluqueria || Front End </h5>
-            <p className="text-slate-500 text-sm mt-2 max-w-sm">Diseñé y desarrollé una Landing Page para una peluquería utilizando React y Bootstrap. El enfoque estuvo en crear una interfaz atractiva y responsiva, aplicando las mejores prácticas de diseño web.</p>
-            <a href="https://github.com/YessicaRomero/LandingPage" className=" absolute bottom-4 left-4 right-4 text-center text-slate-50 bg-indigo-500  font-semibold text-center no-underline">Ir a codigo <GitHub /></a>
+            <h5 className="text-green-900 text-lg font-semibold">LandingPage Hairdresser || Front End </h5>
+            <p className="text-slate-800 text-sm mt-2 max-w-sm m-2">I designed and developed a Landing Page for a hair salon using React and Bootstrap. The focus was on creating an attractive and responsive interface, applying the best web design practices.</p>
+            <a href="https://github.com/YessicaRomero/LandingPage" className="bottom-4 left-4 right-4 text-center text-black-50 hover:bg-pink-500 font-semibold p-2 no-underline ">Go to code <GitHub /></a>
           </div>
         </div>
 
 
-        <div className="bg-gray-200 p-2 rounded-lg shadow-md relative overflow-hidden w-full max-w-sm mx-auto" >
+        <div className="bg-gray-400 p-2 rounded-lg shadow-md relative overflow-hidden w-full max-w-sm mx-auto" >
           <ReactPlayer url={movies} controls loop width={"100%"} className="w-full" />
           <div className="p-4">
-            <h5 className="text-green-200 text-lg font-semibold">Movies || Front End</h5>
-            <p className="text-slate-500 text-sm mt-2 max-w-sm">Consumí una API de películas para renderizar datos dinámicos en tiempo real. Utilicé React para manejar el estado y renderización de componentes, logrando una experiencia de usuario fluida y eficiente.</p>
-            <a href="https://github.com/YessicaRomero/apiReact" className="absolute bottom-4 left-4 right-4 text-center text-slate-50   bg-indigo-500 font-semibold text-center no-underline">Ir a codigo <GitHub /></a>
+            <h5 className="text-green-900 text-lg font-semibold">Movies || Front End</h5>
+            <p className="text-slate-800 text-sm mt-2 max-w-sm m-2">I consumed a movie API to render dynamic data in real time. I used React to handle the state and rendering of components, achieving a smooth and efficient user experience.</p>
+            <a href="https://github.com/YessicaRomero/apiReact" className="bottom-4 left-4 right-4 text-center text-black-50 hover:bg-pink-500 font-semibold p-2 no-underline ">Go to code <GitHub /></a>
 
           </div>
         </div>
 
 
 
-        <div className="bg-gray-200 p-2 rounded-lg shadow-md relative overflow-hidden w-full max-w-sm mx-auto" >
+        <div className="bg-gray-400 p-2 rounded-lg shadow-md relative overflow-hidden w-full max-w-sm mx-auto" >
           <ReactPlayer url={back} controls loop width={"100%"} className="w-full" />
           <div className="p-4">
-            <h5 className="text-green-200 text-lg font-semibold">Trivia || Back end </h5>
-            <p className="text-slate-500 text-sm mt-2 max-w-sm">Como parte del desarrollo del backend del proyecto Trivia, diseñé y desarrollé entidades y DTOs, integré una base de datos desplegada en Oracle y apliqué medidas de seguridad como Helmet y Throttler. También configuré endpoints con validaciones y buenas prácticas. Este proyecto fortaleció mi conocimiento en NestJS y en el diseño de arquitecturas backend.</p>
-            <a href="https://github.com/YessicaRomero/triviaBack.git" className="absolute bottom-4 left-4 right-4 text-center text-slate-50 bg-indigo-500  font-semibold text-center no-underline">Ir a codigo<GitHub /> </a>
+            <h5 className="text-green-900 text-lg font-semibold">Trivia || Back end </h5>
+            <p className="text-slate-800 text-sm mt-2 max-w-sm m-2">As part of the development of the backend of the Trivia project, I designed and developed entities and DTOs, integrated a database deployed in Oracle and applied security measures such as Helmet and Throttler. I also set up endpoints with validations and best practices. </p>
+            <a href="https://github.com/YessicaRomero/triviaBack.git" className="bottom-4 left-4 right-4 text-center text-black-50 hover:bg-pink-500 font-semibold p-2 no-underline ">Go to code<GitHub /> </a>
           </div>
         </div>
 

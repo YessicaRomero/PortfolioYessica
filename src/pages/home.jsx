@@ -8,7 +8,7 @@ import ButtonDownload from '../components/botondownload';
 import Invitation from "../components/invitation";
 import Info from "../components/info";
 import { useNavigate } from "react-router-dom";
-
+import Row from '@mui/icons-material/KeyboardDoubleArrowDown';
 
 
 
@@ -24,7 +24,7 @@ function Home() {
       }
     return(
         <motion.div
-        className="bg-custom-gradient   transition duration-500 ease-in-out transform hover:scale-105 w-full min-h-screen  "
+        className="bg-custom-gradient   transition duration-500 ease-in-out transform hover:scale-105 w-full overflow-hidden "
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
@@ -36,7 +36,9 @@ function Home() {
             <Iconos />
             <Welcome />
             <Skills />
+            <p className= "text-neutral-200 text-center animate-ping text-xl"><Row /></p>
             </div>
+            
             </div>
             <motion.div className="flex flex-col md:flex-col xl:flex-col justify-center items-center gap-2 p-4 m-4">
           
