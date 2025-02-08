@@ -3,16 +3,16 @@
   "private": true,
   "version": "0.0.0",
   "homepage": "https://YessicaRomero.github.io/PortfolioYessica/",
-  "type": "module",
-  "scripts": {
+
+ "scripts": {
  
   "dev": "vite",
   "build": "vite build",
   "predeploy": "npm run build",
   "deploy": "gh-pages -d dist"
-}
+},
 
-  },
+  
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
