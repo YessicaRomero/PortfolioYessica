@@ -1,5 +1,9 @@
 import Project from "../components/projects"
 import { motion } from "framer-motion";
+import { useEffect } from "react";
+
+
+
 
 function Projects() {
   useEffect(() => {
