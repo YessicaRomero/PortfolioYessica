@@ -31,7 +31,7 @@ function Home() {
         variants={fadeIn}
       >
             <NavBar />
-            <div className="bg-[url(/fondoHome.png)] bg-center bg-no-repeat bg-cover  min-h-screen w-full hover:bg-opacity-90">
+            <div className="bg-[url(/PortfolioYessica/fondoHome.png)] bg-center bg-no-repeat bg-cover  min-h-screen w-full hover:bg-opacity-90">
             <div className="bg-black bg-opacity-50 min-h-screen w-full flex flex-col justify-center items-center">
             <Iconos />
             <Welcome />
