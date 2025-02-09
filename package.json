@@ -2,7 +2,7 @@
   "name": "portfolioyessica",
   "version": "0.0.0",
   "private": true,
-  "homepage": "https://YessicaRomero.github.io/PortfolioYessica/",
+ 
   "scripts": {
     "dev": "vite",
     "build": "vite build",
