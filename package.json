@@ -1,16 +1,14 @@
 {
-  "name":"portfolio-yessica",
+  "name": "portfolioyessica",
   "version": "0.0.0",
   "private": true,
-  "homepage": "https://yessicaromero.github.io/PortfolioYessica/",
+  "homepage": "https://YessicaRomero.github.io/PortfolioYessica/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-
-  
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
