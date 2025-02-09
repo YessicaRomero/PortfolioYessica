@@ -19,12 +19,12 @@ function Project() {
 
   return (
     <div className=" px-4 mb-4" >
-      <div className='flex justify-center items-center '>
+      <div className='flex justify-center items-center p-2'>
         
-        <button onClick={HandleClick} className="bg-pink-500 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l">
+        <button onClick={HandleClick} className="bg-pink-500 hover:bg-gray-400 text-gray-800 font-bold  rounded-l m-2 p-2">
           Prev
         </button>
-        <h2 className='relative w-full xl:text-9xl md:text-8xl text-5xl sm:tracking-[17px] tracking-[10px] uppercase text-center leading-[0.70em] outline-none animate-dimlight box-reflect text-slate-500 p-4  m-4 '>Projects</h2>
+        <h2 className='relative w-full xl:text-9xl md:text-8xl text-5xl sm:tracking-[14px] tracking-[10px] uppercase text-center leading-[0.70em] outline-none animate-dimlight box-reflect text-slate-500 p-2  m-2 '>Projects</h2>
 
 
       </div>
