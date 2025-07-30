@@ -13,7 +13,7 @@ function App() {
   return (
 
     <div className="bg-custom-gradient ">
-      <Router>
+      
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
@@ -21,7 +21,7 @@ function App() {
 
 
         </Routes>
-      </Router>
+      
     </div>
 
   )

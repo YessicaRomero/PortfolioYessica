@@ -23,7 +23,7 @@ const Welcome = () => {
       }
     };
 
-    const timeout = setTimeout(handleTyping, 100);
+    const timeout = setTimeout(handleTyping, 150);
 
     return () => clearTimeout(timeout);
   }, [currentText, isDeleting, currentWordIndex, words]);

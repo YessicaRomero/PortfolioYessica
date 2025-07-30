@@ -1,7 +1,16 @@
 import Project from "../components/projects"
 import { motion } from "framer-motion";
+import { useEffect } from "react";
+
+
+
 
 function Projects() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+
   const fadeIn = {
     hidden: { opacity: 0, y: 50 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.8 } },
