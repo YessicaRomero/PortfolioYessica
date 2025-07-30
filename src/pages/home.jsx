@@ -61,7 +61,7 @@ function Home() {
   <span className="absolute top-0 right-0 w-[2px] h-full bg-gradient-to-b from-transparent to-pink-500 animate-line2"></span>
   <span className="absolute bottom-0 right-0 w-full h-[2px] bg-gradient-to-l from-transparent to-pink-500 animate-line3"></span>
   <span className="absolute bottom-0 left-0 w-[2px] h-full bg-gradient-to-t from-transparent to-pink-500 animate-line4"></span>
- Projects
+ Proyectos
 </motion.button>
 
             <Info />
