@@ -15,7 +15,7 @@ import tailwind from '../assets/tailwind.png'
 function Iconos() {
   return (
 
-    <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-2 xl:flex-row gap-4 my-4 '>
+    <div className='flex flex-row sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-2 xl:flex-row gap-4 my-4 '>
 
 
       <img loading="lazy" src={js} alt='logo de javascript' className='size-10 animate-pulse'/>

@@ -16,7 +16,7 @@ export default function Info() {
                 </div>
                 <div className='flex flex-col    p-2 m-2 '>
                     <p className='text-green-200 text-center'><ContactMailIcon /></p>
-                    <h2 className='text-green-200 text-center'>Contact</h2>
+                    <h2 className='text-green-200 text-center'>Email</h2>
                     <h3 className='text-slate-50 text-xs  sm:text-sm md:text-base lg:text-lg  text-center'>yessicaromero@outlook.com.ar</h3>
 
                 </div>

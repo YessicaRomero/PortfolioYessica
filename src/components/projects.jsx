@@ -1,11 +1,11 @@
-import video from '../assets/crudReact.mp4';
-import ReactPlayer from 'react-player';
 import GitHub from '@mui/icons-material/GitHub';
-import video2 from '../assets/trivia.mp4';
-import Peluqueria from '../assets/peluqueria.mp4';
-import movies from '../assets/movie.mp4';
-import back from '../assets/back.mp4';
+import ReactPlayer from 'react-player';
 import { useNavigate } from "react-router-dom";
+import back from '../assets/back.mp4';
+import video from '../assets/crudReact.mp4';
+import movies from '../assets/movie.mp4';
+import Peluqueria from '../assets/peluqueria.mp4';
+import video2 from '../assets/trivia.mp4';
 
 function Project() {
   
@@ -22,7 +22,7 @@ function Project() {
       <div className='flex justify-center items-center p-2'>
         
         <button onClick={HandleClick} className="bg-pink-500 hover:bg-gray-400 text-gray-800 font-bold  rounded-l m-2 p-2">
-          Prev
+          Volver
         </button>
         <h2 className='relative w-full xl:text-9xl md:text-8xl text-5xl sm:tracking-[14px] tracking-[10px] uppercase text-center leading-[0.70em] outline-none animate-dimlight box-reflect text-slate-500 p-2  m-2 '>Projects</h2>
 
@@ -37,8 +37,8 @@ function Project() {
           <ReactPlayer loading="lazy" url={video} controls loop width={"100%"} className="w-full" />
           <div className="p-4">
             <h5 className="text-green-900 text-lg font-semibold">Music Library || FullStack</h5>
-            <p className="text-slate-800 text-sm mt-2 max-w-sm m-2">I implemented a CRUD using React and NestJS. The data is consumed from a JSON file on the frontend, while on the backend I used NestJS to handle paths, validations, and business logic. This project allowed me to delve deeper into the interaction between frontend and backend.</p>
-            <a href="https://github.com/YessicaRomero/Api-con-Nestjs-React.git" className="bottom-4 left-4 right-4 text-center text-black-50 hover:bg-pink-500 font-semibold p-2 no-underline ">Go to code<GitHub /> </a>
+            <p className="text-slate-800 text-sm mt-2 max-w-sm m-2">Implementé un CRUD con React y NestJS. Los datos se consumen desde un archivo JSON en el frontend, mientras que en el backend usé NestJS para gestionar rutas, validaciones y lógica de negocio. Este proyecto me permitió profundizar en la interacción entre el frontend y el backend.</p>
+            <a href="https://github.com/YessicaRomero/Api-con-Nestjs-React.git" className="bottom-4 left-4 right-4 text-center text-black-50 hover:bg-pink-500 font-semibold p-2 no-underline ">Codigo<GitHub /> </a>
           </div>
         </div>
 
@@ -48,8 +48,9 @@ function Project() {
           <ReactPlayer url={video2} controls loop width={"100%"} className="w-full" />
           <div className="p-4">
             <h5 className="text-green-900 text-lg font-semibold">Trivia || FullStack</h5>
-            <p className="text-slate-800 text-sm mt-2 max-w-sm m-2">I developed an interactive trivia game as a team. I participated on the frontend, using React, Bootstrap and FontAwesome. In addition, we implemented secure authentication with JSON Web Tokens and used Figma for collaborative design.</p>
-            <a href="https://github.com/YessicaRomero/triviaFullSatck.git" className="bottom-4 left-4 right-4 text-center text-black-50 hover:bg-pink-500 font-semibold p-2 no-underline ">Go to code<GitHub /> </a>
+            <p className="text-slate-800 text-sm mt-2 max-w-sm m-2">Desarrollé un juego de trivia interactivo en equipo de manera remota.Participé en la interfaz, usando React, Bootstrap y FontAwesome. Además, implementamos autenticación segura con tokens web JSON y usamos Figma para el diseño colaborativo.Como base de datos Mysql y Nestjs para el backend
+            </p>
+            <a href="https://github.com/YessicaRomero/triviaFullSatck.git" className="bottom-4 left-4 right-4 text-center text-black-50 hover:bg-pink-500 font-semibold p-2 no-underline ">Codigo<GitHub /> </a>
           </div>
         </div>
 
@@ -59,8 +60,9 @@ function Project() {
           <ReactPlayer url={Peluqueria} controls loop width={"100%"} className="w-full" />
           <div className="p-4">
             <h5 className="text-green-900 text-lg font-semibold">LandingPage Hairdresser || Front End </h5>
-            <p className="text-slate-800 text-sm mt-2 max-w-sm m-2">I designed and developed a Landing Page for a hair salon using React and Bootstrap. The focus was on creating an attractive and responsive interface, applying the best web design practices.</p>
-            <a href="https://github.com/YessicaRomero/LandingPage" className="bottom-4 left-4 right-4 text-center text-black-50 hover:bg-pink-500 font-semibold p-2 no-underline ">Go to code <GitHub /></a>
+            <p className="text-slate-800 text-sm mt-2 max-w-sm m-2">
+            Diseñé y desarrollé una landing page para una peluquería con React y Bootstrap. El objetivo era crear una interfaz atractiva y responsiva, aplicando las mejores prácticas de diseño web.</p>
+            <a href="https://github.com/YessicaRomero/LandingPage" className="bottom-4 left-4 right-4 text-center text-black-50 hover:bg-pink-500 font-semibold p-2 no-underline ">Codigo <GitHub /></a>
           </div>
         </div>
 
@@ -69,8 +71,9 @@ function Project() {
           <ReactPlayer url={movies} controls loop width={"100%"} className="w-full" />
           <div className="p-4">
             <h5 className="text-green-900 text-lg font-semibold">Movies || Front End</h5>
-            <p className="text-slate-800 text-sm mt-2 max-w-sm m-2">I consumed a movie API to render dynamic data in real time. I used React to handle the state and rendering of components, achieving a smooth and efficient user experience.</p>
-            <a href="https://github.com/YessicaRomero/apiReact" className="bottom-4 left-4 right-4 text-center text-black-50 hover:bg-pink-500 font-semibold p-2 no-underline ">Go to code <GitHub /></a>
+            <p className="text-slate-800 text-sm mt-2 max-w-sm m-2">
+            Utilicé una API de películas para renderizar datos dinámicos en tiempo real. Usé React para gestionar el estado y el renderizado de los componentes, logrando una experiencia de usuario fluida y eficiente.</p>
+            <a href="https://github.com/YessicaRomero/apiReact" className="bottom-4 left-4 right-4 text-center text-black-50 hover:bg-pink-500 font-semibold p-2 no-underline ">Codigo <GitHub /></a>
 
           </div>
         </div>
@@ -81,8 +84,8 @@ function Project() {
           <ReactPlayer url={back} controls loop width={"100%"} className="w-full" />
           <div className="p-4">
             <h5 className="text-green-900 text-lg font-semibold">Trivia || Back end </h5>
-            <p className="text-slate-800 text-sm mt-2 max-w-sm m-2">As part of the development of the backend of the Trivia project, I designed and developed entities and DTOs, integrated a database deployed in Oracle and applied security measures such as Helmet and Throttler. I also set up endpoints with validations and best practices. </p>
-            <a href="https://github.com/YessicaRomero/triviaBack.git" className="bottom-4 left-4 right-4 text-center text-black-50 hover:bg-pink-500 font-semibold p-2 no-underline ">Go to code<GitHub /> </a>
+            <p className="text-slate-800 text-sm mt-2 max-w-sm m-2">Como parte del desarrollo del backend del proyecto Trivia, diseñé y desarrollé entidades y DTO, integré una base de datos implementada en Oracle y apliqué medidas de seguridad como Helmet y Throttler. También configuré endpoints con validaciones y mejores prácticas. </p>
+            <a href="https://github.com/YessicaRomero/triviaBack.git" className="bottom-4 left-4 right-4 text-center text-black-50 hover:bg-pink-500 font-semibold p-2 no-underline ">Codigo<GitHub /> </a>
           </div>
         </div>
 

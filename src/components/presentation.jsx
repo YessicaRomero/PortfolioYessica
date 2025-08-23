@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 
 const Welcome = () => {
-  const words = ["Hello, I'M A FULL STACK DEVELOPER!", "My name is Yessica Romero"];
+  const words = [ "Yessica Romero Full Stack Developer"];
+  
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
   const [currentText, setCurrentText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
@@ -31,6 +32,7 @@ const Welcome = () => {
   return (
     <div className="animate-slidein  [--slidein-delay:500ms]  w-full h-full flex justify-center items-center my-8 text-white row-span-2 p-8 min-h-[100px]  ">
       <h1 className="text-4xl font-bold min-h-[100px] text-shadow-lg ">{currentText}</h1>
+      
     </div>
   );
 };
