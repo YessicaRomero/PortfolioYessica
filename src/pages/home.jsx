@@ -9,23 +9,20 @@ import Invitation from "../components/invitation";
 import Info from "../components/info";
 import { useNavigate } from "react-router-dom";
 import Row from '@mui/icons-material/KeyboardDoubleArrowDown';
+import Project from "../components/projects";
 
 
 
 function Home() {
-  const navigate  = useNavigate();
 
-  const HandleClick = () =>{
-    navigate("/projects")
-}
     const fadeIn = {
-        hidden: {opacity: 0,  y:50},
-        visible: {opacity: 1, y:0, transition: {duration: 0.8}},
+        hidden: {opacity: 0},
+        visible: {opacity: 1, y:0, transition: {duration: 0.6}},
       }
     return(
         <motion.div
-        className="bg-custom-gradient   transition duration-500 ease-in-out transform hover:scale-105 w-full overflow-hidden "
-        initial="hidden"
+        className="bg-custom-gradient   transition duration-600 ease-in-out transform hover:scale-105 w-full overflow-hidden "
+        
         whileInView="visible"
         viewport={{ once: true }}
         variants={fadeIn}
@@ -52,20 +49,11 @@ function Home() {
         viewport={{ once: true }}
         variants={fadeIn} >
             <Invitation />
-            <motion.button
-  type="button"
-  onClick={HandleClick}
-  className="relative gap-4 justify-center  overflow-hidden text-pink-500 font-bold py-3 px-6 border-2 border-pink-500 rounded-lg transition duration-500 ease-in-out hover:bg-pink-500 hover:text-black shadow-neon-pink hover:shadow-neon-pink md:w-[250px] lg:w-[400px]"
->
-  <span className="absolute top-0 left-0 w-full h-[2px] bg-gradient-to-r from-transparent to-pink-500 animate-line1"></span>
-  <span className="absolute top-0 right-0 w-[2px] h-full bg-gradient-to-b from-transparent to-pink-500 animate-line2"></span>
-  <span className="absolute bottom-0 right-0 w-full h-[2px] bg-gradient-to-l from-transparent to-pink-500 animate-line3"></span>
-  <span className="absolute bottom-0 left-0 w-[2px] h-full bg-gradient-to-t from-transparent to-pink-500 animate-line4"></span>
- Ver proyectos
-</motion.button>
+          
 
             <Info />
             </motion.div>
+            <Project />
         </motion.div>
     )
     

@@ -1,4 +1,4 @@
-import Project from "../components/projects"
+/*import Project from "../components/projects"
 import { motion } from "framer-motion";
 
 function Projects() {
@@ -17,3 +17,4 @@ function Projects() {
   )
 }
 export default Projects
+*/

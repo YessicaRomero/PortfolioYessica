@@ -1,5 +1,5 @@
-import PhoneIcon from '@mui/icons-material/Phone';
 import ContactMailIcon from '@mui/icons-material/ContactMail';
+import PhoneIcon from '@mui/icons-material/Phone';
 
 
 export default function Info() {

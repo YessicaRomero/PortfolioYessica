@@ -18,7 +18,7 @@ export default function Invitation() {
   return (
     <div className="flex flex-row sm:flex-col md:flex-col lg:flex-row xl:flex-row h-1/3 w-auto m-6 items-center  bg-gradient-to-r from-black-900 via-black-100 to-gray-800 text-white text-4xl font-light ">
       Gracias por tu visita<FavoriteIcon />
-      <div className="relative inline-block w-[100px] text-left h-9 align-middle m-6 p-4 ml-2 text-blue-500 text-bold min-h-[100px] ">
+      <div className="relative inline-block w-[100px] text-left h-9 align-middle m-6 p-6 ml-2 text-blue-500 text-bold min-h-[100px] ">
         {words.map((word, index) => (
           <div
             key={index}

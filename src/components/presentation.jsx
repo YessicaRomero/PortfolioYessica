@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 const Welcome = () => {
-  const words = [ "Yessica Romero Full Stack Developer"];
+  const words = [ "Yessica Romero","Full Stack Developer"];
   
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
   const [currentText, setCurrentText] = useState("");
