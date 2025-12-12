@@ -6,11 +6,7 @@
   "homepage": "https://yessicaromero.github.io/PortfolioYessica",
   "scripts": {
     "dev": "vite",
-<<<<<<< HEAD
     "build": "vite build",
-=======
-  "build": "vite build",
->>>>>>> 2bde52677dc403ec785a27afc5387071e5affaac
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
